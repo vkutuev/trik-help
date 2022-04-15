@@ -1,0 +1,153 @@
+# Table of contents
+
+* [Справочный центр ТРИК](README.md)
+
+## TRIK Studio <a href="#studio" id="studio"></a>
+
+* [О TRIK Studio](studio/about/README.md)
+  * [Как узнать версию TRIK Studio](studio/about/version.md)
+* [Начало работы и создание проекта](studio/start.md)
+* [Интерфейс TRIK Studio](studio/interface/README.md)
+  * [Главное меню TRIK Studio](studio/interface/main-menu.md)
+  * [Работа с графиками](studio/interface/graphics.md)
+  * [Как открыть настройки робота?](studio/interface/faq-robot-settings.md)
+  * [Как изменить язык интерфейса TRIK Studio?](studio/interface/language.md)
+* [Настройки TRIK Studio](studio/settings.md)
+* [2D-модель](studio/2d-model/README.md)
+  * [Гибкая настройка 2D-модели](studio/2d-model/settings.md)
+  * [Добавление ограничений в 2D-модель](studio/2d-model/restrictions/README.md)
+    * [Примеры задания ограничений](studio/2d-model/restrictions/examples.md)
+* [Программирование на визуальном языке](studio/programming-visual/README.md)
+  * [Добавление и удаление блоков](studio/programming-visual/blocks-add-delete.md)
+  * [Общие блоки](studio/programming-visual/blocks.md)
+  * [Связи между блоками](studio/programming-visual/connection-between-blocks.md)
+  * [Синтаксис выражений в блоках](studio/programming-visual/expression-syntax/README.md)
+    * [Типы языка TRIK Studio](studio/programming-visual/expression-syntax/types/README.md)
+      * [Массив](studio/programming-visual/expression-syntax/types/array.md)
+    * [Лексемы языка TRIK Studio](studio/programming-visual/expression-syntax/lexemes.md)
+    * [Операторы языка TRIK Studio](studio/programming-visual/expression-syntax/operators.md)
+    * [Константы](studio/programming-visual/expression-syntax/const.md)
+    * [Сенсорные переменные](studio/programming-visual/expression-syntax/sensory-variables.md)
+    * [Встроенные функции](studio/programming-visual/expression-syntax/built-in-functions.md)
+  * [Редактирование свойств элементов](studio/programming-visual/editing-element-properties.md)
+  * [Подпрограммы](studio/programming-visual/subprograms.md)
+* [Программирование на текстовом языке](studio/programming-code.md)
+* [Упражнения](studio/exercises.md)
+* [Сторонние утилиты](studio/utilities/README.md)
+  * [PuTTY](studio/utilities/putty.md)
+  * [WinSCP](studio/utilities/winscp.md)
+* [Горячие клавиши в TRIK Studio](studio/shortcuts.md)
+* [Сбои из-за антивирусов](studio/antivirus-conflicts/README.md)
+  * [Антивирус Avast блокирует TRIK Studio. Что делать?](studio/antivirus-conflicts/avast.md)
+
+## TRIK Studio Junior
+
+* [О TRIK Studio Junior](trik-studio-junior/about/README.md)
+  * [Как узнать версию TRIK Studio Junior](trik-studio-junior/about/version.md)
+* [Начало работы и создание проекта в TRIK Studio Junior](trik-studio-junior/start.md)
+* [Интерфейс TRIK Studio Junior](trik-studio-junior/interfeis-trik-studio-junior/README.md)
+  * [Как заменить изображение «Исполнителя» в TRIK Studio Junior?](trik-studio-junior/interfeis-trik-studio-junior/robot-image-change.md)
+* [2D-модель в TRIK Studio Junior](trik-studio-junior/2d-model.md)
+* [Настройки TRIK Studio Junior](trik-studio-junior/settings.md)
+* [Программирование на визуальном языке в TRIK Studio Junior](trik-studio-junior/programming/README.md)
+  * [Добавление и удаление блоков в TRIK Studio Junior](trik-studio-junior/programming/blocks-add-delete.md)
+  * [Блоки в TRIK Studio Junior](trik-studio-junior/programming/blocks.md)
+  * [Связи между блоками в TRIK Studio Junior](trik-studio-junior/programming/connection-between-blocks.md)
+  * [Синтаксис выражений в блоках в TRIK Studio Junior](trik-studio-junior/programming/expression-syntax.md)
+  * [Редактирование свойств элементов в TRIK Studio Junior](trik-studio-junior/programming/editing-element-properties.md)
+  * [Подпрограммы в TRIK Studio Junior](trik-studio-junior/programming/subprograms.md)
+* [Упражнения в TRIK Studio Junior](trik-studio-junior/exercises.md)
+
+## Интеграции <a href="#integrations" id="integrations"></a>
+
+* [PyCharm](integrations/pycharm/README.md)
+  * [Запуск 2D-модели в TRIK Studio из PyCharm](integrations/pycharm/running-2d-model-in-trik-studio-from-pycharm.md)
+* [Sublime Text](integrations/sublime/README.md)
+  * [Запуск 2D-модели в TRIK Studio из Sublime Text](integrations/sublime/run-2d-from-sublime.md)
+  * [Загрузка программ на нескольких роботов ТРИК из Sublime Text](integrations/sublime/loading-programs-on-several-robots.md)
+* [VSCode](integrations/vscode/README.md)
+  * [Запуск 2D-модели в TRIK Studio из VSCode](integrations/vscode/run-2d-from-vscode.md)
+  * [Загрузка программ на нескольких роботов ТРИК из VSCode](integrations/vscode/loading-programs-on-several-robots.md)
+
+## Контроллер ТРИК <a href="#trik" id="trik"></a>
+
+* [О контроллере ТРИК](trik/about/README.md)
+  * [Скриншот экрана контроллера ТРИК](trik/about/screenshot.md)
+* [Обновление встроенного программного обеспечения контроллера ТРИК](trik/firmware/README.md)
+  * [Как узнать версию встроенного ПО контроллера ТРИК?](trik/firmware/version.md)
+* [Меню контроллера ТРИК](trik/menu.md)
+* [Подключения по Wi-Fi к контроллеру ТРИК](trik/wi-fi/README.md)
+  * [Подключение контроллера ТРИК к компьютеру и смартфону](trik/wi-fi/network-connection.md)
+  * [Подключение контроллера ТРИК к TRIK Studio](trik/wi-fi/connect-to-ts.md)
+  * [Взаимодействие контроллеров ТРИК](trik/wi-fi/interaction/README.md)
+    * [Пример решения задачи по взаимодействию двух роботов](trik/wi-fi/interaction/interaction-example.md)
+* [Подключение к контроллеру ТРИК с помощью UART](trik/uart.md)
+* [Запуск программ и их загрузка на контроллер ТРИК](trik/run-upload-programs.md)
+* [Программирование ТРИК на визуальном языке](trik/programming-visual/README.md)
+  * [Блоки ТРИК](trik/programming-visual/blocks.md)
+  * [Сенсорные переменные для контроллера ТРИК](trik/programming-visual/sensory-variables.md)
+* [Программирование ТРИК на Python и JavaScript](trik/programming-code/README.md)
+  * [Объект «brick»](trik/programming-code/object-brick/README.md)
+    * [Класс «accelerometer»](trik/programming-code/object-brick/class-accelerometer.md)
+    * [Класс «battery»](trik/programming-code/object-brick/class-battery.md)
+    * [Класс «colorSensor»](trik/programming-code/object-brick/class-colorsensor.md)
+    * [Класс «display»](trik/programming-code/object-brick/class-display.md)
+    * [Класс «encoder»](trik/programming-code/object-brick/class-encoder.md)
+    * [Класс «gyroscope»](trik/programming-code/object-brick/class-gyroscope.md)
+    * [Класс «keys»](trik/programming-code/object-brick/class-keys.md)
+    * [Класс «led»](trik/programming-code/object-brick/class-led.md)
+    * [Класс «lineSensor»](trik/programming-code/object-brick/class-linesensor.md)
+    * [Класс «motor»](trik/programming-code/object-brick/class-motor.md)
+    * [Класс «objectSensor»](trik/programming-code/object-brick/class-objectsensor.md)
+    * [Класс «marker»](trik/programming-code/object-brick/class-marker.md)
+    * [Класс «sensor»](trik/programming-code/object-brick/class-sensor.md)
+  * [Объект «script»](trik/programming-code/object-script.md)
+  * [Объект «mailbox»](trik/programming-code/object-mailbox.md)
+  * [Объект «gamepad»](trik/programming-code/object-gamepad.md)
+  * [Объект «Threading»](trik/programming-code/object-threading.md)
+  * [Функция getPhoto](trik/programming-code/function-getphoto.md)
+  * [Функция include](trik/programming-code/function-include.md)
+* [Веб-интерфейс контроллера ТРИК](trik/web-interface.md)
+* [Подключение устройств к ТРИК и работа с ними](trik/work-with-devices/README.md)
+  * [Подключение и работа с видеомодулем](trik/work-with-devices/video.md)
+  * [Тестирование подключенных к контроллеру ТРИК устройств](trik/work-with-devices/testing-connected-devices.md)
+  * [Настройка работы USB-камеры с контроллером ТРИК](trik/work-with-devices/usb-camera.md)
+  * [Съемка изображений на камеру ТРИК и использование их в TRIK Studio](trik/work-with-devices/capture-images-on-camera.md)
+  * [Работа с аккумулятором и зарядным устройством](trik/work-with-devices/battery-and-charger.md)
+
+## Контроллер LEGO EV3 <a href="#ev3" id="ev3"></a>
+
+* [O LEGO EV3](ev3/about.md)
+* [Подключение контроллера LEGO EV3 к TRIK Studio](ev3/connect-to-studio.md)
+* [Блоки LEGO EV3](ev3/blocks.md)
+* [Сенсорные переменные для контроллера LEGO EV3](ev3/sensory-variables.md)
+* [Запуск программ и их загрузка на контроллер LEGO EV3](ev3/run-upload-programs.md)
+* [Программирование LEGO EV3 для Virtual Robotics Toolkit в TRIK Studio](ev3/ts-for-vrt.md)
+
+## Контроллер LEGO NXT <a href="#nxt" id="nxt"></a>
+
+* [О LEGO NXT](nxt/about.md)
+* [Прошивка контроллера LEGO NXT](nxt/firmware.md)
+* [Подключение контроллера LEGO NXT к TRIK Studio](nxt/connect-to-studio.md)
+* [Блоки LEGO NXT](nxt/blocks.md)
+* [Сенсорные переменные для контроллера LEGO NXT](nxt/sensory-variables.md)
+* [Программирование LEGO NXT на C](nxt/c.md)
+* [Запуск программ и их загрузка на контроллер LEGO NXT](nxt/run-upload-programs.md)
+
+## Квадрокоптер Пионер <a href="#pioneer" id="pioneer"></a>
+
+* [О квадрокоптере Геоскан Пионер](pioneer/about.md)
+* [Блоки квадрокоптера Геоскан Пионер](pioneer/blocks.md)
+
+## TRIK Gamepad <a href="#gamepad" id="gamepad"></a>
+
+* [О TRIK Gamepad](gamepad/about/README.md)
+  * [Приложение TRIK Gamepad](gamepad/about/app.md)
+  * [Утилита TRIK Gamepad](gamepad/about/utility.md)
+* [Управление роботом с пульта](gamepad/remote-control.md)
+
+## Feedback
+
+* [Действия при неправильной работе TRIK Studio или контроллера ТРИК](feedback/logging.md)
+* [Задать вопрос](https://trikset.com/support#feedback)
+* [trikset.com](https://trikset.com)

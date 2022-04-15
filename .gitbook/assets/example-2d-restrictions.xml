@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <world>
+      <background />
+      <walls>
+         <!-- Стена -->
+         <wall id="{wall1}" end="300:150" begin="0:100" />
+         <wall id="{wall2}" end="550:100" begin="300:150" />
+         <wall id="{wall3}" end="650:200" begin="550:100" />
+         <wall id="{wall4}" end="850:300" begin="650:200" />
+         <wall id="{wall5}" end="1200:300" begin="850:300" />
+         <wall id="{wall6}" end="1600:50" begin="1200:300" />
+      </walls>
+      <skittles />
+      <balls />
+      <colorFields />
+      <images />
+      <regions>
+         <!-- Регионы -->
+         <region visible="true" id="finish" x="1300" color="#ff0000" text="Finish" type="rectangle" width="300" textX="0" textY="0" y="-200" filled="true" height="300" />
+         <region visible="true" id="start_zone" x="-50" color="#0000ff" text="Start" type="rectangle" width="150" textX="0" textY="0" y="100" filled="true" height="-150" />
+         <region visible="false" id="warzone_1" x="-50" color="#ffff00" text="warzone1" type="rectangle" width="650" textX="0" textY="0" y="-50" filled="true" height="200" />
+         <region visible="false" id="warzone_2" x="600" color="#ffff00" text="warzone2" type="rectangle" width="250" textX="0" textY="0" y="0" filled="true" height="250" />
+         <region visible="false" id="warzone_3" x="850" color="#ffff00" text="warzone3" type="rectangle" width="750" textX="0" textY="0" y="50" filled="true" height="250" />
+      </regions>
+   </world>
+   <robots>
+      <!-- Описание робота -->
+      <robot id="trikKitRobot" position="0:0" direction="0">
+         <sensors>
+            <sensor port="A1###input###А1###sensorA1" position="75:25" type="trik::robotModel::parts::TrikInfraredSensor" direction="45" />
+            <sensor port="M3###output###JM3$$$C$$$3###" position="75:25" type="kitBase::robotModel::robotParts::Motor" direction="0" />
+            <sensor port="M4###output###JM4$$$D$$$4###" position="75:25" type="kitBase::robotModel::robotParts::Motor" direction="0" />
+         </sensors>
+         <startPosition id="{ee2c46c1-23fc-4cda-98f4-77d9de775305}" x="25" y="25" direction="0" />
+         <wheels left="M3###output###М3###" right="M4###output###М4###" />
+      </robot>
+   </robots>
+   <constraints>
+      <!-- Лимит на выполнение программы (30 секунд) -->
+      <timelimit value="30000" />
+      <!-- Зональное ограничение на начало езды. Проверяется один раз в начале программы -->
+      <constraint checkOnce="true" failMessage="Робот должен находиться в синем квадрате перед запуском!">
+         <inside regionId="start_zone" objectId="robot1" />
+      </constraint>
+      <!-- Ограничение на наличие и тип датчиков -->
+      <constraint checkOnce="true" failMessage="Должен быть подключен только Датчик расстояния ИК на A1">
+         <conditions glue="and">
+            <equals>
+               <typeOf objectId="robot1.A1" />
+               <string value="trik::robotModel::twoD::parts::TwoDInfraredSensor" />
+            </equals>
+            <equals>
+               <typeOf objectId="robot1.A2" />
+               <string value="undefined" />
+            </equals>
+            <equals>
+               <typeOf objectId="robot1.A3" />
+               <string value="undefined" />
+            </equals>
+            <equals>
+               <typeOf objectId="robot1.A4" />
+               <string value="undefined" />
+            </equals>
+            <equals>
+               <typeOf objectId="robot1.A5" />
+               <string value="undefined" />
+            </equals>
+            <equals>
+               <typeOf objectId="robot1.A6" />
+               <string value="undefined" />
+            </equals>
+            <equals>
+               <typeOf objectId="robot1.D1" />
+               <string value="undefined" />
+            </equals>
+            <equals>
+               <typeOf objectId="robot1.D2" />
+               <string value="undefined" />
+            </equals>
+         </conditions>
+      </constraint>
+      <!-- Контроль езды робота -->
+      <constraint failMessage="Робот попытался выехать из разрешенной зоны!">
+         <conditions glue="or">
+            <inside regionId="warzone_1" objectId="robot1" />
+            <inside regionId="warzone_2" objectId="robot1" />
+            <inside regionId="warzone_3" objectId="robot1" />
+         </conditions>
+      </constraint>
+      <!-- Событие, проверяющее не заехал ли робот в зону финиша -->
+      <event settedUpInitially="true">
+         <condition>
+            <timer timeout="100" forceDropOnTimeout="true" />
+         </condition>
+         <trigger>
+            <setUp id="finish checker" />
+         </trigger>
+      </event>
+      <!-- Событие, оповещающее об успешном выполнении программы -->
+      <event id="finish checker" settedUpInitially="false">
+         <condition>
+            <inside regionId="finish" objectId="robot1" />
+         </condition>
+         <trigger>
+            <success />
+         </trigger>
+      </event>
+   </constraints>
+</root>
