@@ -239,9 +239,7 @@
 
 7\)     В появившемся контекстном меню выбрать пункт Save
 
-<figure><img src="../../.gitbook/assets/{99d29d6e-c43e-461d-8740-5cfbdd44179c}.gif" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/{6a82df5c-122a-40ca-bc97-7c693a5736fe} (1).gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ScreenRecorderProject3.gif" alt=""><figcaption></figcaption></figure>
 
 Чтобы редактировать текст можно использовать HTML разметку. Для того, чтобы она сработала необходимо использовать теги в виде <тег>ваш текст\</тег>
 
@@ -257,3 +255,5 @@
 | \<sub>   | Подстрочный текст |
 | \<big>   | Большой шрифт     |
 | \<small> | Маленький шрифт   |
+
+<figure><img src="../../.gitbook/assets/ScreenRecorderProject4.gif" alt=""><figcaption></figcaption></figure>
