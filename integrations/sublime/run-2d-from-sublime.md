@@ -17,7 +17,7 @@
 
 {% hint style="warning" %}
 Инструкция протестирована на Sublime Text 3 (Build 3211).\
-Скачать Sublime Text можно на [официальном сайте](https://www.sublimetext.com).
+Скачать Sublime Text можно на [официальном сайте](https://www.sublimetext.com/).
 {% endhint %}
 
 1\. Откройте **Sublime Text**.

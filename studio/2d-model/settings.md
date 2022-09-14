@@ -28,7 +28,7 @@
 
 ## Редактирование XML-файла <a href="#editor-xml" id="editor-xml"></a>
 
-Откройте сохраненный XML-файл в любом текстовом редакторе. Например, [Notepad++](https://notepad-plus-plus.org).
+Откройте сохраненный XML-файл в любом текстовом редакторе. Например, [Notepad++](https://notepad-plus-plus.org/).
 
 XML-файл состоит из тегов и атрибутов.
 

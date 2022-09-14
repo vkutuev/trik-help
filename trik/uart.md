@@ -20,7 +20,7 @@ description: Подробная инструкция
 
 ## 1. Установка драйверов <a href="#uart-driver" id="uart-driver"></a>
 
-1\. [Скачайте драйвера](https://www.silabs.com/documents/public/software/CP210x\_Windows\_Drivers.zip) с официального сайта производителя преобразователя: [silabs.com](https://www.silabs.com).
+1\. [Скачайте драйвера](https://www.silabs.com/documents/public/software/CP210x\_Windows\_Drivers.zip) с официального сайта производителя преобразователя: [silabs.com](https://www.silabs.com/).
 
 2\. Распакуйте архив и запустите установщик драйвера, соответствующий вашей операционной системе (32 или 64 бит).
 

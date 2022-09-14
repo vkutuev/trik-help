@@ -1,6 +1,6 @@
 # Программирование LEGO EV3 для Virtual Robotics Toolkit в TRIK Studio
 
-TRIK Studio можно использовать для написания программ для симулятора контроллера LEGO EV3 [Virtual Robotics Toolkit](https://www.virtualroboticstoolkit.com) (VRT).
+TRIK Studio можно использовать для написания программ для симулятора контроллера LEGO EV3 [Virtual Robotics Toolkit](https://www.virtualroboticstoolkit.com/) (VRT).
 
 Для написания и загрузки программы в VRT необходимо:
 
