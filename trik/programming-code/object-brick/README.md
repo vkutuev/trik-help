@@ -22,6 +22,7 @@
 | [sensor](./#sensor)               | Предоставляет доступ к сенсору на указанном порту.                                                            |
 | [stop](./#stop)                   | Останавливает все моторы и активные датчики, убирает нарисованное на дисплее.                                 |
 | [marker](./#marker)               | Предоставляет доступ к рисованию маркером заданного цвета на полу. Доступен только в режиме двумерной модели. |
+| [irCamera](./#ircamera)           | Предоставляет доступ к инфракрасному датчику.                                                                 |
 
 ## accelerometer
 
@@ -507,3 +508,22 @@ brick.marker();
 {% endtab %}
 {% endtabs %}
 
+## irCamera
+
+Предоставляет доступ к инфракрасному датчику (класс «[IrCamera](class-ircamera.md)»).
+
+#### Синтаксис
+
+{% tabs %}
+{% tab title="Python" %}
+```python
+brick.irCamera()
+```
+{% endtab %}
+
+{% tab title="JavaScript" %}
+```javascript
+brick.irCamera();
+```
+{% endtab %}
+{% endtabs %}

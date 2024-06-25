@@ -101,6 +101,7 @@
     * [Класс «objectSensor»](trik/programming-code/object-brick/class-objectsensor.md)
     * [Класс «marker»](trik/programming-code/object-brick/class-marker.md)
     * [Класс «sensor»](trik/programming-code/object-brick/class-sensor.md)
+    * [Класс «irCamera»](trik/programming-code/object-brick/class-ircamera.md)
   * [Объект «script»](trik/programming-code/object-script.md)
   * [Объект «mailbox»](trik/programming-code/object-mailbox.md)
   * [Объект «gamepad»](trik/programming-code/object-gamepad.md)
